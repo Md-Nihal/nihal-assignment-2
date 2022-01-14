@@ -3,8 +3,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
-    
-    
 }
 
 /* header side  */
@@ -25,4 +23,71 @@ header{
     text-decoration: none;
     color: black;
     margin-right: 34px;
+}
+
+
+/* Introduction section start  */
+
+.introduction{
+    display: flex;
+   
+  
+}
+
+.introduction-1{
+    width: 582px;
+    height: 270px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.introduction-1 h1 {
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+.introduction-1 p {
+    margin-bottom: 16px;
+}
+.introduction-1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 3px 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-top: 16.1px;
+}
+
+.introduction-2{
+    background-image: url(images/circle-design.png);
+    background-repeat: no-repeat;
+    width: 475px;
+    height: 475px; 
+    margin-right: 132px;   
+    margin-left: 131px;  
+    padding: 33px 30px 33px 2px;
+}
+.introduction-2 img {
+    width: 440px;
+    height: 414px;
+}
+
+/* media partner section  */
+.main-partner{
+    width: 1110px;
+    height: 110px;
+    margin-left: 165px;
+    margin-top: 20px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.sponser{
+    display: flex;
+    justify-content: center;
+   padding-top: 38px;
+}
+.media-partner{
+    margin: 15px 20px;
+}
+.media-partner img {
+    width: 70%;
 }
