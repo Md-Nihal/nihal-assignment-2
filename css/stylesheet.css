@@ -3,10 +3,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+
 }
 
 /* header side  */
-header{
+.heading{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,8 +31,6 @@ header{
 
 .introduction{
     display: flex;
-   
-  
 }
 
 .introduction-1{
@@ -173,7 +172,6 @@ header{
 .extra-part{
     display: flex;
     margin: 20px 165px;
-    
 }
 .extra-part-1 img{
     width: 404px;
@@ -200,8 +198,6 @@ header{
     display: flex;
     justify-content: center;
     height:130px;
-   padding: 8px;
-    
 }
 .finis{
     text-align: center;
@@ -213,4 +209,28 @@ header{
 .logo a{
     color: white;
     margin: 0 5px;
+}
+
+/* media queary */
+@media only screen and (max-width:688px) {
+.heading  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.introduction {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+.extra-part{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
 }
