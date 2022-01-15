@@ -193,3 +193,24 @@ header{
     font-weight: 500;
     border-radius: 20px;
 }
+
+/* footer end  */
+.finishing{
+    background: #FF6666;
+    display: flex;
+    justify-content: center;
+    height:130px;
+   padding: 8px;
+    
+}
+.finis{
+    text-align: center;
+    width: 262px;
+    height: 139px;
+    line-height: 0.50px;
+ 
+}
+.logo a{
+    color: white;
+    margin: 0 5px;
+}
